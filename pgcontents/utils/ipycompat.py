@@ -55,12 +55,12 @@ else:
         GenericFileCheckpoints
     )
     from notebook.services.contents.manager import ContentsManager
-    from notebook.services.contents.tests.test_manager import (
-        TestContentsManager
-    )
-    from notebook.services.contents.tests.test_contents_api import (
-        APITest
-    )
+#    from notebook.services.contents.tests.test_manager import (
+#        TestContentsManager
+#    )
+#    from notebook.services.contents.tests.test_contents_api import (
+#        APITest
+#    )
     from notebook.utils import to_os_path
     from nbformat import from_dict, reads, writes
     from nbformat.v4.nbbase import (
@@ -80,7 +80,7 @@ else:
     )
 
 __all__ = [
-    'APITest',
+#    'APITest',
     'Bool',
     'Checkpoints',
     'Config',
@@ -92,7 +92,7 @@ __all__ = [
     'HasTraits',
     'Instance',
     'Integer',
-    'TestContentsManager',
+#    'TestContentsManager',
     'Unicode',
     'from_dict',
     'new_code_cell',
